@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Dojonary</title>
+</head>
+<body>
+    <nav>
+        <h1>Dojonary</h1>
+        <input type="text" name="search" id="search" placeholder="Search">
+        <button onclick="logOut(this)">Login</button>
+    </nav>
+    <div id="main-page-content">
+        <main id="leftside">
+            <div class="left-card">
+                <div class="inner-card-left">
+                    <h2>ninja</h2>
+                    <h3>noun</h3>
+                    <h3>Plural: ninjas</h3>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="inner-card-right">
+                    <p>A pratictioner skilled in the <br><a href="https://en.wikipedia.org/wiki/Japanese">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="left-card">
+                <div class="inner-card-left">
+                    <h2>ninja</h2>
+                    <h3>noun</h3>
+                    <h3>Plural: ninjas</h3>
+                    <button onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="inner-card-right">
+                    <p>A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks <br>down problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus</p>
+                </div>
+            </div>
+        </main>
+        <section id="rightside">
+            <div id="right-card">
+                <h2>Dojonary is<br>defined by <em><strong>YOU</strong></em></h2>
+                <button onclick="removeBtn(this)">Add Definition</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+/*Reset styling*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+}
+
+/*text sizing*/
+
+h1, h2 {
+    font-size: 80px;
+}
+
+button {
+    font-size: 40px;
+}
+
+/*Navigation bar*/
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    height: 150px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    padding: 15px 400px 10px 10px;
+}
+
+input::placeholder {
+    font-size: 25px;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(0, 93, 224);
+    box-shadow: 10px 5px 5px black;
+}
+
+/*main page content -left side*/
+
+#main-page-content {
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-card {
+    display: flex;
+    align-items: center;
+    border: 5px solid black;
+    padding: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.inner-card-left h2, h3, button{
+    margin: 10px 0;
+}
+
+h3, .inner-card-left button {
+    font-size: 28px;
+}
+
+.inner-card-left button {
+    padding: 10px 35px;
+    background-color: rgb(255, 231, 76);
+    color: black;
+}
+
+.left-card p {
+    font-size: 32px;
+}
+
+/* main page content -right side*/
+
+#rightside h2 {
+    font-size: 50px;
+}
+
+
+#rightside {
+    border: 5px solid black;
+    height: 275px;
+    padding: 0% 2%;
+}
+
+#right-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: inherit;
+}
+
+.inner-card-right {
+    text-align: start;
+    margin-left: 10%;
+}
+
+#rightside button {
+    background-color: lightgreen;
+    color: black;
+}
